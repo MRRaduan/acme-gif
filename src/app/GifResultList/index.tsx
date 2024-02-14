@@ -6,12 +6,6 @@ type GifResultListProps = {
 };
 
 const GifResultList = ({ gifList }: GifResultListProps) => {
-  // if (gifList.length >= 0) {
-  //   return;
-  // }
-
-  console.log("[GifResultList]: ", gifList);
-
   return (
     <ul className="grid grid-cols-2 gap-4 mt-16 w-full">
       {gifList.map((gif: any) => {

@@ -14,6 +14,7 @@ export default function Home() {
     setGifsResult(gifs.data);
   };
 
+  // Here we can add some validation
   // const searchGifValidations = () => {}
   const handleOnHitEnter = () => {
     //  searchGifValidations()
